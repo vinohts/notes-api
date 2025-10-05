@@ -33,5 +33,5 @@ jobs:
           application_name: "notes-api"
           environment_name: "notes-api-env"
           version_label: ${{ github.run_id }}
-          region: "us-east-1"
+          region: "ap-south-1"
           deployment_package: "deploy.zip"
